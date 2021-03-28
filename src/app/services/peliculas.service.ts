@@ -22,7 +22,7 @@ export class PeliculasService {
 
   get params() {
     return {
-      api_key: '18d6fcca63d1580525e1f9f31ad37581',
+      api_key: 'You_api_key',
       language: 'es-Es',
       page: this.cateleraPage.toString(),
     };
